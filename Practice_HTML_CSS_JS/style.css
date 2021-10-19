@@ -3,6 +3,10 @@
     margin: 0px;
 }
 
+.flex{
+    display: flex;
+}
+
 .main{
     background-color: gray;
     width: 800px;
@@ -15,3 +19,14 @@
     background-color: green;
     height: 25%;
 }
+
+.leftColumn{
+    background-color: blue;
+    flex: 1;
+}
+
+.rightColumn{
+    background-color: red;
+    
+}
+
